@@ -1,0 +1,36 @@
+{
+  "name": "tictactoe",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "npm run clear && vite build",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js",
+    "format:lint": "npm run format && npm run lint",
+    "clear": "rimraf dist .parcel-cache"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "vite": "^3.0.2"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
