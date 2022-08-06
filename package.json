@@ -12,6 +12,7 @@
     "clear": "rimraf dist .parcel-cache"
   },
   "dependencies": {
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -26,6 +27,7 @@
     "eslint-plugin-react": "^7.30.1",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
+    "sass": "^1.54.3",
     "vite": "^3.0.2"
   },
   "babel": {
