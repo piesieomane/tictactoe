@@ -19,7 +19,7 @@ Stack:
 
 ## live demo
 
-Not ready yet
+Click Here [](https://63077e9281de2b0506c3fbd2--enchanting-cobbler-7308db.netlify.app/)
 
 # Nano React App Default Javascript Template
 
